@@ -1,0 +1,37 @@
+* {
+  background-color: #f9f5f5;
+  color: #a8a8a8;
+}
+
+a {
+    /*color: #add8e6;*/
+    color: #99cfe0;
+    text-decoration: none;
+}
+
+a:hover {
+   color: #8aacb8;
+   text-decoration:none;
+   cursor:pointer;
+}
+
+div#left {
+  float:left;
+  padding-left: 4.5em;
+  padding-top: 1.3em;
+}
+
+h1 {
+  font-size: 60px;
+  color: #b5c4c7;
+}
+
+p {
+  font-size: 16px;
+}
+
+div#right {
+  float:right;
+  padding-top: 2em;
+  padding-right:1em;
+}
