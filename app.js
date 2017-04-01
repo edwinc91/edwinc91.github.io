@@ -1,10 +1,38 @@
+var windowWidth = $(window).width();
+var navbarWidth = $('.header').width();
+var navBarScrolled = function() {
+  $('.main-nav').animate({
+    width: windowWidth,
+    marginLeft: 0
+  }, {
+    duration: 150,
+    queue: false
+  }, "linear")
+}
+var navBarOriginal = function() {
+  var setLeftMargin = (windowWidth - navbarWidth)/2
+  $('.main-nav').animate({
+    width: navbarWidth,
+    marginLeft: setLeftMargin
+  }, {
+    duration: 150,
+    queue: false
+  }, "linear")
+}
+
 $(window).scroll(function() {
   if ($(this).scrollTop() > $('.header').height()) {
     $('.main-nav').addClass('main-nav-scrolled');
+    navBarScrolled();
   } else {
     $('.main-nav').removeClass('main-nav-scrolled');
+    navBarOriginal();
   }
 });
+
+// $('.main-nav').on('click', function() {
+//       $('.main-nav').animate({width: $(window).width(), marginLeft: 0}, {duration: 1000})
+// })
 
 $('li.dropdown a').on('click', function () {
   $(this).parent().toggleClass('open');
