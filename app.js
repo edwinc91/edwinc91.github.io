@@ -7,8 +7,8 @@ var navBarScrolled = function() {
   }, {
     duration: 150,
     queue: false
-  }, "linear")
-}
+  }, 'linear')
+};
 var navBarOriginal = function() {
   var setLeftMargin = (windowWidth - navbarWidth)/2
   $('.main-nav').animate({
@@ -17,8 +17,91 @@ var navBarOriginal = function() {
   }, {
     duration: 150,
     queue: false
-  }, "linear")
-}
+  }, 'linear')
+};
+
+var dropdownBigBorderBeigeTop = '-88px';
+var dropdownBigBorderSalmonTop = '-32px';
+var dropdownBigBorderBlueTop = '-60px';
+var dropdownSmallBorderBeigeTop = '-86px';
+var dropdownSmallBorderSalmonTop = '-30px';
+var dropdownSmallBorderBlueTop = '-58px';
+
+var dropdownBorderReverseSalmon = function() {
+  $('.dropdown-border-circle').animate({
+    padding: '10px',
+    left: '8px',
+    top: dropdownSmallBorderSalmonTop
+  }, {
+    duration: 200,
+    // queue: false
+  }, 'linear')
+};
+var dropdownBorderSalmon = function() {
+  $('.dropdown-border-circle').animate({
+    padding: '12px',
+    left: '6px',
+    top: dropdownBigBorderSalmonTop
+  }, {
+    duration: 200,
+    // queue: false
+  }, 'linear')
+};
+var dropdownBorderReverseBeige = function() {
+  $('.dropdown-border-circle').animate({
+    padding: '10px',
+    left: '8px',
+    top: dropdownSmallBorderBeigeTop
+  }, {
+    duration: 200,
+    // queue: false
+  }, 'linear')
+};
+var dropdownBorderBeige = function() {
+  $('.dropdown-border-circle').animate({
+    padding: '12px',
+    left: '6px',
+    top: dropdownBigBorderBeigeTop
+  }, {
+    duration: 200,
+    // queue: false
+  }, 'linear')
+};
+var dropdownBorderReverseBlue = function() {
+  $('.dropdown-border-circle').animate({
+    padding: '10px',
+    left: '8px',
+    top: dropdownSmallBorderBlueTop
+  }, {
+    duration: 200,
+    // queue: false
+  }, 'linear')
+};
+var dropdownBorderBlue = function() {
+  $('.dropdown-border-circle').animate({
+    padding: '12px',
+    left: '6px',
+    top: dropdownBigBorderBlueTop
+  }, {
+    duration: 200
+  }, 'linear')
+};
+$('a.change-color.beige').on('click', function(){
+  dropdownBorderReverseBeige();
+  // dropdownBorderFinderBeige();
+  dropdownBorderBeige();
+})
+// every 28px for top, starting from 88px downwards
+$('a.change-color.lightblue').on('click', function(){
+  dropdownBorderReverseBlue();
+  // dropdownBorderFinderBlue();
+  dropdownBorderBlue();
+})
+$('a.change-color.salmon').on('click', function(){
+  dropdownBorderReverseSalmon();
+  // dropdownBorderFinderSalmon();
+  dropdownBorderSalmon();
+})
 
 $(window).scroll(function() {
   if ($(this).scrollTop() > $('.header').height()) {
@@ -29,10 +112,6 @@ $(window).scroll(function() {
     navBarOriginal();
   }
 });
-
-// $('.main-nav').on('click', function() {
-//       $('.main-nav').animate({width: $(window).width(), marginLeft: 0}, {duration: 1000})
-// })
 
 $('li.dropdown a').on('click', function () {
   $(this).parent().toggleClass('open');
