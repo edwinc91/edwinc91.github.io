@@ -206,6 +206,57 @@ a.circle {
   float: right;
 }
 
+/*.work-description {
+  position: relative;
+  z-index: 2;
+  top: -228px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: none;
+  background-color: rgba(255,255,255,0.8);
+}*/
+
+.one {
+  background: url("images/clothing.png") no-repeat center center;
+  background-size: 100%;
+  transition: all 0.4s ease;
+}
+
+.work-description {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  text-align: center;
+  display: table;
+}
+
+.work-description {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.5em;
+  /*display: table-cell;
+  vertical-align: middle;*/
+}
+
+.one:hover .work-description {
+  background-color: rgba(250,128,114,0.85);
+  opacity: 1;
+}
+.one:hover {
+  background-size: 125%;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.work-description > h2 {
+  margin-top: 44px;
+}
+
+.one:hover .work-description{
+  display: block;
+  /*delay: 0.2s;*/
+}
 
 #footer {
   height: 12em;
