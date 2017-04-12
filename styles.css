@@ -156,7 +156,7 @@ a.circle {
 .fixing-wrapper {
   background: white;
   padding-top: 7em;
-  height: 100em;
+  height: 130em;
 }
 
 .main-wrapper {
@@ -164,12 +164,23 @@ a.circle {
   margin: 0 auto;
 }
 
+h1 {
+  text-align: center;
+}
+
+.main-image {
+  width: 110%;
+  margin-left: -5%;
+  margin-top: 2em;
+}
+
 .who-am-i {
-  margin-top: 1em;
+  margin-top: 3em;
 }
 
 .who-am-i > p {
   line-height: 0.5;
+  font-size: 1.1em;
 }
 
 .works {
@@ -179,9 +190,10 @@ a.circle {
 
 .work-div {
   height: 15em;
-  width: 50%;
+  width: 49%;
   border: 1px solid black;
   overflow: hidden;
+  margin: 0.5em auto;
 }
 
 .work-div > img {
@@ -207,37 +219,37 @@ a.circle {
 }
 
 .work-one {
-  background: url("images/clothing.png") no-repeat center center;
+  background: url("images/clothing.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-two {
-  background: url("images/bookmarker.png") no-repeat center center;
+  background: url("images/bookmarker.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-three {
-  background: url("images/something-borrowed.png") no-repeat center center;
+  background: url("images/something-borrowed.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-four {
-  background: url("images/nutrition.png") no-repeat center center;
+  background: url("images/nutrition.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-five {
-  background: url("images/forum.png") no-repeat center center;
+  background: url("images/forum.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-six {
-  background: url("images/blackjack.png") no-repeat center center;
+  background: url("images/blackjack.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
@@ -255,10 +267,11 @@ a.circle {
   width: 100%;
   height: 100%;
   padding-top: 0.5em;
+  cursor: pointer;
 }
 
 .work-div:hover .work-description {
-  background-color: rgba(250,128,114,0.85);
+  background-color: rgba(104,104,104,0.85);
   opacity: 1;
 }
 .work-div:hover {
@@ -268,6 +281,19 @@ a.circle {
 
 .work-description > h2 {
   margin-top: 44px;
+}
+
+.tech-list {
+  padding-left: 0;
+}
+
+.tech-list > li {
+  list-style: none;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 0.5em;
+  margin: 0.2em;
+  color: white;
 }
 
 #footer {
