@@ -450,5 +450,180 @@ h1 {
 }
 
 @media (min-width: 1128px) {
-  
+
+  .fixing-wrapper {
+    height: 137em;
+  }
+
+  .work-div {
+    height: 15.85em;
+  }
+
+  .work-description > h2 {
+    margin-top: 44px;
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  body {
+    padding-top: 23em;
+  }
+
+  .header {
+    height: 23em;
+  }
+
+  .headerText {
+    padding-top: 6.5em;
+  }
+
+  .header,
+  .main-nav {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .main-wrapper {
+    width: 65%;
+  }
+
+  .work-div {
+    height: 15.6em;
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  .fixing-wrapper {
+    height: 141em;
+  }
+
+  .work-div {
+    height: 16.6em;
+  }
+
+}
+
+@media (min-width: 1328px) {
+
+  .fixing-wrapper {
+    height: 145em;
+  }
+
+  .work-div {
+    height: 17.2em;
+  }
+
+  .work-description > h2 {
+    margin-top: 50px;
+    font-size: 32px;
+  }
+
+}
+
+@media (min-width: 1366px) {
+
+  /*maybe increase navbar height around here*/
+
+  .fixing-wrapper {
+    height: 148em;
+  }
+
+  .work-div {
+    height: 17.7em;
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+    .header,
+    .main-nav {
+      width: 75%;
+      margin-left: 12.5%;
+    }
+
+    .main-wrapper {
+      width: 60%;
+    }
+
+    .work-div {
+      height: 17.2em;
+    }
+
+}
+
+@media (min-width: 1600px) {
+
+  body {
+    padding-top: 28em;
+  }
+
+  .header {
+    height: 28em;
+  }
+
+  .headerText {
+    padding-top: 8.5em;
+  }
+
+  .headerText > h2 {
+    font-size: 3em;
+  }
+
+  .headerText > h4 {
+    font-size: 2em;
+  }
+
+  .fixing-wrapper {
+    height: 156em;
+  }
+
+  .work-div {
+    height: 19.2em;
+  }
+
+  #footer {
+    height: 21em;
+    padding-top: 52px;
+  }
+
+}
+
+@media (min-width: 1920px) {
+
+  .header,
+  .main-nav {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .main-wrapper {
+    width: 50%;
+  }
+
+  body {
+    padding-top: 33em;
+  }
+
+  .header {
+    height: 33em;
+  }
+
+  .headerText {
+    padding-top: 9.5em;
+  }
+
+  .headerText > h2 {
+    font-size: 3.5em;
+  }
+
+  .headerText > h4 {
+    font-size: 2.5em;
+  }
+
 }
