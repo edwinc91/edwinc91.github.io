@@ -19,6 +19,18 @@ body {
   background-color: #fa8072 !important;
 }
 
+.lightblue-text {
+  color: #bde0ff !important;
+}
+
+.beige-text {
+  color: #f4dab6 !important;
+}
+
+.salmon-text {
+  color: #fa8072 !important;
+}
+
 .header {
   height: 20em;
   text-align: center;
@@ -134,12 +146,14 @@ a.circle {
 
 .dropdown-menu {
   margin-left: 0.8em;
-  bottom: -400% !important;
+  bottom: -15em !important;
   min-width: 0 !important;
+  /*background-color: #f8f8f8;*/
+  background-color: lightgray;
 }
 
 .dropdown-border-circle {
-  background-color: blue;
+  background-color: white;
   position: relative;
   z-index: -1;
   left: 6px;
@@ -156,7 +170,7 @@ a.circle {
 .fixing-wrapper {
   background: white;
   padding-top: 7em;
-  height: 130em;
+  height: 140em;
 }
 
 .main-wrapper {
@@ -311,3 +325,130 @@ h1 {
 #footer > a {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .header,
+  .main-nav {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .navbar-brand {
+    font-size: 1em;
+  }
+
+  .fixing-wrapper {
+    height: 122em;
+  }
+
+  .main-wrapper {
+    width: 75%;
+  }
+
+  .who-am-i > p {
+    line-height: 1;
+  }
+
+  .work-div {
+    height: 11.5em;
+  }
+
+  .work-description > h2 {
+    margin-top: 22px;
+    font-size: 23px;
+  }
+
+  .tech-list > li {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 840px) {
+
+  .fixing-wrapper {
+    height: 126em;
+  }
+
+  .work-div {
+    height: 12.5em;
+  }
+
+}
+
+@media (min-width: 900px) {
+
+  .who-am-i > p {
+    line-height: 0.5;
+  }
+
+  .work-div {
+    height: 13.4em;
+  }
+
+  .work-description > h2 {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+
+
+}
+
+@media (min-width: 960px) {
+
+  .fixing-wrapper {
+    height: 131em;
+  }
+
+  .work-div {
+    height: 14.3em;
+  }
+
+  .work-description > h2 {
+    margin-top: 31px;
+    font-size: 25px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .fixing-wrapper {
+    height: 133em;
+  }
+
+  .work-div {
+    height: 14.8em;
+  }
+
+  .work-description > h2 {
+    font-size: 28px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .header,
+  .main-nav {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+
+  .main-wrapper {
+    width: 70%;
+  }
+
+  .work-div {
+    height: 14.3em;
+  }
+
+  .work-description > h2 {
+    margin-top: 36px;
+  }
+
+}
+
+@media (min-width: 1128px) {
+  
+}
