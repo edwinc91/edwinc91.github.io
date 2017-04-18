@@ -135,7 +135,9 @@ $('a.change-color.beige').on('click', function () {
   $('.hello').removeClass('salmon-text');
   $('.hello').removeClass('lightblue-text');
   $('.hello').addClass('beige-text');
-
+  $('h3').removeClass('salmon-text');
+  $('h3').removeClass('lightblue-text');
+  $('h3').addClass('beige-text');
 })
 
 $('a.change-color.lightblue').on('click', function () {
@@ -148,6 +150,9 @@ $('a.change-color.lightblue').on('click', function () {
   $('.hello').removeClass('beige-text');
   $('.hello').removeClass('salmon-text');
   $('.hello').addClass('lightblue-text');
+  $('h3').removeClass('salmon-text');
+  $('h3').removeClass('beige-text');
+  $('h3').addClass('lightblue-text');
 })
 
 $('a.change-color.salmon').on('click', function () {
@@ -160,6 +165,9 @@ $('a.change-color.salmon').on('click', function () {
   $('.hello').removeClass('lightblue-text');
   $('.hello').removeClass('beige-text');
   $('.hello').addClass('salmon-text');
+  $('h3').removeClass('lightblue-text');
+  $('h3').removeClass('beige-text');
+  $('h3').addClass('salmon-text');
 })
 
 // $('.clothing-fun').on('click', function() {

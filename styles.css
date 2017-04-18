@@ -90,7 +90,7 @@ body {
 }
 
 a.circle {
-  margin: 0.4em 1em;
+  margin: 0.25em 1em 0.4em;
 }
 
 .navbar-default .navbar-nav > .active > .beige,
