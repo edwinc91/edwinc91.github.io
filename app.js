@@ -170,26 +170,26 @@ $('a.change-color.salmon').on('click', function () {
   $('h3').addClass('salmon-text');
 })
 
-// $('.clothing-fun').on('click', function() {
-//   window.open('https://edwinc91.github.io/clothing-fun/', '_blank');
-// });
-//
-// $('.bookmarker').on('click', function() {
-//   window.open('https://powerful-waters-72917.herokuapp.com/', '_blank');
-// });
-//
-// $('.something-borrowed').on('click', function() {
-//   window.open('http://still-sea-2278.herokuapp.com/', '_blank');
-// });
-//
-// $('.nutrition').on('click', function() {
-//   window.open('http://thawing-reaches-4422.herokuapp.com/', '_blank');
-// });
-//
-// $('.forum').on('click', function() {
-//   window.open('https://glacial-brook-9343.herokuapp.com/', '_blank');
-// });
-//
-// $('.blackjack').on('click', function() {
-//   window.open('https://edwinc91.github.io/blackjack/', '_blank');
-// });
+$('.clothing-fun').on('click', function() {
+  window.open('https://edwinc91.github.io/clothing-fun/', '_blank');
+});
+
+$('.bookmarker').on('click', function() {
+  window.open('https://powerful-waters-72917.herokuapp.com/', '_blank');
+});
+
+$('.something-borrowed').on('click', function() {
+  window.open('http://still-sea-2278.herokuapp.com/', '_blank');
+});
+
+$('.nutrition').on('click', function() {
+  window.open('http://thawing-reaches-4422.herokuapp.com/', '_blank');
+});
+
+$('.forum').on('click', function() {
+  window.open('https://glacial-brook-9343.herokuapp.com/', '_blank');
+});
+
+$('.blackjack').on('click', function() {
+  window.open('https://edwinc91.github.io/blackjack/', '_blank');
+});
