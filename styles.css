@@ -90,7 +90,7 @@ body {
 }
 
 a.circle {
-  margin: 0.25em 1em 0.4em;
+  margin: 0.4em 1em;
 }
 
 .navbar-default .navbar-nav > .active > .beige,
@@ -233,37 +233,37 @@ h1 {
 }
 
 .work-one {
-  background: url("images/clothing.png") no-repeat center top;
+  background: url("images/sharing_is_caring.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-two {
-  background: url("images/bookmarker.png") no-repeat center top;
+  background: url("images/clothing.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-three {
-  background: url("images/something-borrowed.png") no-repeat center top;
+  background: url("images/bookmarker.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-four {
-  background: url("images/nutrition.png") no-repeat center top;
+  background: url("images/something-borrowed.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-five {
-  background: url("images/forum.png") no-repeat center top;
+  background: url("images/nutrition.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
 
 .work-six {
-  background: url("images/blackjack.png") no-repeat center top;
+  background: url("images/forum.png") no-repeat center top;
   background-size: 100%;
   transition: all 0.4s ease;
 }
@@ -619,11 +619,7 @@ h1 {
   }
 
   .headerText > h2 {
-    font-size: 3.5em;
-  }
-
-  .headerText > h4 {
-    font-size: 2.5em;
+    font-si
   }
 
 }

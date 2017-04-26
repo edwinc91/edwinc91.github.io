@@ -170,6 +170,10 @@ $('a.change-color.salmon').on('click', function () {
   $('h3').addClass('salmon-text');
 })
 
+$('.share-care').on('click', function() {
+  window.open('https://sharing-is-caring1.herokuapp.com/', '_blank');
+});
+
 $('.clothing-fun').on('click', function() {
   window.open('https://edwinc91.github.io/clothing-fun/', '_blank');
 });
@@ -188,8 +192,4 @@ $('.nutrition').on('click', function() {
 
 $('.forum').on('click', function() {
   window.open('https://glacial-brook-9343.herokuapp.com/', '_blank');
-});
-
-$('.blackjack').on('click', function() {
-  window.open('https://edwinc91.github.io/blackjack/', '_blank');
 });
